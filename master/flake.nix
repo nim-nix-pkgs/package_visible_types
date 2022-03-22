@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-package_visible_types-master.flake = false;
+  inputs.src-package_visible_types-master.ref   = "refs/heads/master";
   inputs.src-package_visible_types-master.owner = "zah";
-  inputs.src-package_visible_types-master.ref   = "master";
   inputs.src-package_visible_types-master.repo  = "nim-package-visible-types";
   inputs.src-package_visible_types-master.type  = "github";
   
