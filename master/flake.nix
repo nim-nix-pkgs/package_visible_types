@@ -1,5 +1,5 @@
 {
-  description = ''A hacky helper lib for authoring Nim packages with package-level visiblity'';
+  description = ''A cure for the lack of package-level visibility in Nim'';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
@@ -9,7 +9,7 @@
   
   inputs.src-package_visible_types-master.flake = false;
   inputs.src-package_visible_types-master.owner = "zah";
-  inputs.src-package_visible_types-master.ref   = "refs/heads/master";
+  inputs.src-package_visible_types-master.ref   = "master";
   inputs.src-package_visible_types-master.repo  = "nim-package-visible-types";
   inputs.src-package_visible_types-master.type  = "github";
   
