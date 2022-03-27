@@ -11,6 +11,7 @@
   inputs.src-package_visible_types-master.ref   = "refs/heads/master";
   inputs.src-package_visible_types-master.owner = "zah";
   inputs.src-package_visible_types-master.repo  = "nim-package-visible-types";
+  inputs.src-package_visible_types-master.dir   = "";
   inputs.src-package_visible_types-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
